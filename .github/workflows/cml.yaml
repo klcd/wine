@@ -29,5 +29,5 @@ jobs:
           python train.py
           
           echo "MODEL METRICS"
-          cat results.txt >> report.md
-          cml-send-comment report.md
+          #cat results.txt >> report.md
+          #cml-send-comment report.md
